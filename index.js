@@ -2,6 +2,6 @@
 var http = require('http');
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World\n');
-}).listen(8080, 'www.skymckinley.com');
-console.log('Server running at http://www.skymckinley.com:8080/');
+  res.end('SkyMcKinley.com\n');
+}).listen(8081, 'localhost');
+console.log('Server running at http://localhost:8081/');
